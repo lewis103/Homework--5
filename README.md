@@ -6,7 +6,8 @@ Crack an RSA cryptosystem by factoring a 154 digit integer.
 
 (a) Show how to use Fermat's little theorem to prove that n is composite without factoring n
 
-Fermat’s little theorem shoes that a(p-1) is congruent to 1 mod(p). We can use this theorem to n is composite without factoring. We must find some number a such that a is not a multiple of n and a^(n-1) is not congruent to 1 mod(n). In order to do this one would use a repeated squaring algorithm.
+Fermat’s little theorem shoes that a(p-1) is congruent to 1 mod(p). We can use this theorem to show that n is composite without factoring. We must find some number a such that a is not a multiple of n and a^(n-1) is not congruent to 1 
+mod(n). In order to do this one would use a repeated squaring algorithm.
 
 (b) Crack the RSA cryptosystem
 
